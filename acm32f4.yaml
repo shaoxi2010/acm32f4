@@ -1,0 +1,9 @@
+# Path to the SVD file we're targeting. Relative to this file.
+# This must be included only in the device YAML file.
+_svd: "./ACM32F4.svd"
+
+# Include other YAML files. Path relative to this file.
+_include:
+    - "./patches/SCU.yaml"
+    - "./patches/TIM.yaml"
+    - "./patches/GPIO1.yaml"

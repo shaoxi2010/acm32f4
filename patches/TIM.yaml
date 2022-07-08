@@ -1,0 +1,67 @@
+#TIM1:
+#TIM2:
+#TIM3:
+#TIM14:
+#TIM15:
+
+TIM6:
+  _modify:
+    SMCR:
+      name: CR2
+
+  CR1:
+    _add:
+      ARPE:
+        description: "Allowed reload"
+        bitOffset: 7
+        bitWidth: 1
+      OPM:
+        bitOffset: 3
+        bitWidth: 1
+      URS:
+        bitOffset: 2
+        bitWidth: 1
+      UDIS:
+        bitOffset: 1
+        bitWidth: 1
+      CEN:
+        bitOffset: 0
+        bitWidth: 1
+  CR2:
+    _add:
+      MMS:
+        bitOffset: 4
+        bitWidth: 3
+  DIER:
+    _add:
+      UDE:
+        bitOffset: 8
+        bitWidth: 1
+      UIE:
+        bitOffset: 0
+        bitWidth: 1
+  SR:
+    _add:
+      UIF:
+        bitOffset: 0
+        bitWidth: 1
+  EGR:
+    _add:
+      UG:
+        bitOffset: 0
+        bitWidth: 1
+  CNT:
+    _add:
+      CNT:
+        bitOffset: 0
+        bitWidth: 16
+  PSC:
+    _add:
+      PSC:
+        bitOffset: 0
+        bitWidth: 16
+  ARR:
+    _add:
+      ARR:
+        bitOffset: 0
+        bitWidth: 16

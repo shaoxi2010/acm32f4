@@ -1,0 +1,244 @@
+SCU:
+    RCR:
+        _add:
+            SRST:
+                description: "Soft Reset Enable"
+                bitOffset: 30
+                bitWidth: 1
+            EFC_RST:
+                description: "eFlash Reset Enable"
+                bitOffset: 29
+                bitWidth: 1
+            RMAP_IMP:
+                description: "eFlash Remap Enable"
+                bitOffset: 16
+                bitWidth: 1
+            LOCKUPRST_EN:
+                description: "Allowed LOCKUP Reset"
+                bitOffset: 3
+                bitWidth: 1
+            IWDTRST_EN:
+                description: "Allowed IWDT Reset"
+                bitOffset: 2
+                bitWidth: 1
+            WDTRST_EN:
+                description: "Allowed WDT Reset"
+                bitOffset: 1
+                bitWidth: 1
+            LVDRST_EN:
+                description: "Allowed LVD Reset"
+                bitOffset: 0
+                bitWidth: 1
+    CCR1:
+        _add:
+            SYS_CLK_SEL:
+                description: "Select SYS_CLK: 000(RCH) 001(RC32K) 010(XTH) 011(XTL) 1xx(PLL)"
+                bitOffset: 0
+                bitWidth: 3
+    CCR2:
+        _add:
+            DIVDONE:
+                description: "SYSDIV 256 clock claim down"
+                bitOffset: 31
+                bitWidth: 1
+                access: read-only
+            FLTCLK_SEL:
+                description: "Select LVD/COMP filter 0(PCLK/32) 1(RC32K)"
+                bitOffset: 15
+                bitWidth: 1
+            LPUCLK_SEL:
+                description: "Select LUART CLOCKSRC 00(RC32K) 01(XTL) 10(PCLK/LPUARTDIV)"
+                bitOffset: 13
+                bitWidth: 2
+            LPUARTDIV:
+                description: "Select LUART DIV (2^(2+val))"
+                bitOffset: 11
+                bitWidth: 2
+            PCLKDIV:
+                description: "Select PCLK DIV 0xx(NoDiv) 100(2) 101(4) 110(8) 111(16)"
+                bitOffset: 8
+                bitWidth: 3
+            SYSDIV1:
+                description: "Select HCLK DIV (val+1) "
+                bitOffset: 4
+                bitWidth: 4
+            SYSDIV0:
+                description: "Select SYS_CLK DIV (val+1) "
+                bitOffset: 0
+                bitWidth: 4
+    IPCKENR1:
+        _add:
+            CAN1:
+                description: "CAN1 Clock enable"
+                bitOffset: 31
+                bitWidth: 1
+            ROM:
+                description: "ROM Clock enable"
+                bitOffset: 30
+                bitWidth: 1
+            HRNG:
+                description: "HRNG Clock enable"
+                bitOffset: 29
+                bitWidth: 1
+            AES:
+                description: "AES Clock enable"
+                bitOffset: 28
+                bitWidth: 1
+            TIM17:
+                description: "TIM17 Clock enable"
+                bitOffset: 27
+                bitWidth: 1
+            TIM16:
+                description: "TIM16 Clock enable"
+                bitOffset: 26
+                bitWidth: 1
+            TIM15:
+                description: "TIM15 Clock enable"
+                bitOffset: 25
+                bitWidth: 1
+            TIM14:
+                description: "TIM14 Clock enable"
+                bitOffset: 24
+                bitWidth: 1
+            TIM7:
+                description: "TIM7 Clock enable"
+                bitOffset: 23
+                bitWidth: 1
+            TIM6:
+                description: "TIM6 Clock enable"
+                bitOffset: 22
+                bitWidth: 1
+            TIM3:
+                description: "TIM3 Clock enable"
+                bitOffset: 21
+                bitWidth: 1
+            TIM1:
+                description: "TIM1 Clock enable"
+                bitOffset: 20
+                bitWidth: 1
+            UART3:
+                description: "UART3 Clock enable"
+                bitOffset: 19
+                bitWidth: 1
+            TIM2:
+                description: "TIM2 Clock enable"
+                bitOffset: 18
+                bitWidth: 1
+            OPA:
+                description: "OPA Clock enable"
+                bitOffset: 17
+                bitWidth: 1
+            COMP:
+                description: "COMP Clock enable"
+                bitOffset: 16
+                bitWidth: 1
+            ADC:
+                description: "ADC Clock enable"
+                bitOffset: 14
+                bitWidth: 1
+            RTC:
+                description: "RTC Clock enable"
+                bitOffset: 13
+                bitWidth: 1
+            DMAC:
+                description: "DMA Clock enable"
+                bitOffset: 12
+                bitWidth: 1
+            CRC:
+                description: "CRC Clock enable"
+                bitOffset: 11
+                bitWidth: 1
+            DAC:
+                description: "DAC Clock enable"
+                bitOffset: 10
+                bitWidth: 1
+            USB:
+                description: "USB Clock enable"
+                bitOffset: 9
+                bitWidth: 1
+            LUART:
+                description: "LUART Clock enable"
+                bitOffset: 8
+                bitWidth: 1
+            I2C2:
+                description: "I2C2 Clock enable"
+                bitOffset: 7
+                bitWidth: 1
+            I2C1:
+                description: "I2C1 Clock enable"
+                bitOffset: 6
+                bitWidth: 1
+            SPI2:
+                description: "SPI2 Clock enable"
+                bitOffset: 5
+                bitWidth: 1
+            SPI1:
+                description: "SPI1 Clock enable"
+                bitOffset: 4
+                bitWidth: 1
+            UART2:
+                description: "UART2 Clock enable"
+                bitOffset: 3
+                bitWidth: 1
+            UART1:
+                description: "UART1 Clock enable"
+                bitOffset: 2
+                bitWidth: 1
+            CAN2:
+                description: "CAN2 Clock enable"
+                bitOffset: 1
+                bitWidth: 1
+            I2S1:
+                description: "I2S1 Clock enable"
+                bitOffset: 0
+                bitWidth: 1
+    IPCKENR2:
+        _add:
+            SPI4:
+                description: "SPI4 Clock enable"
+                bitOffset: 13
+                bitWidth: 1
+            GPIO3:
+                description: "GPIO3(PE/PF) Clock enable"
+                bitOffset: 12
+                bitWidth: 1
+            SPI3:
+                description: "SPI3 Clock enable"
+                bitOffset: 11
+                bitWidth: 1
+            UART4:
+                description: "UART4 Clock enable"
+                bitOffset: 10
+                bitWidth: 1
+            TIM4:
+                description: "TIM4 Clock enable"
+                bitOffset: 9
+                bitWidth: 1
+            FAU:
+                description: "FAU Clock enable"
+                bitOffset: 8
+                bitWidth: 1
+            EFC:
+                description: "EFLASH in sleep mode Clock enable"
+                bitOffset: 6
+                bitWidth: 1
+            SRAM:
+                description: "SRAM in sleep mode Clock enable"
+                bitOffset: 5
+                bitWidth: 1
+            EXTI:
+                description: "EXTI Clock enable"
+                bitOffset: 4
+                bitWidth: 1
+            WDT:
+                description: "WatchDog Clock enable"
+                bitOffset: 2
+                bitWidth: 1
+            GPIO2:
+                description: "GPIO2(PC/PD) Clock enable"
+                bitOffset: 1
+                bitWidth: 1
+            GPIO1:
+                description: "GPIO1(PA/PB) Clock enable"
+                bitOffset: 0
+                bitWidth: 1

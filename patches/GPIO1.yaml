@@ -1,0 +1,1177 @@
+GPIO1:
+  GPIO_DIR:
+    _add:
+      PH15:
+        bitOffset: 31
+        bitWidth: 1
+      PH14:
+        bitOffset: 30
+        bitWidth: 1
+      PH13:
+        bitOffset: 29
+        bitWidth: 1
+      PH12:
+        bitOffset: 28
+        bitWidth: 1
+      PH11:
+        bitOffset: 27
+        bitWidth: 1
+      PH10:
+        bitOffset: 26
+        bitWidth: 1
+      PH9:
+        bitOffset: 25
+        bitWidth: 1
+      PH8:
+        bitOffset: 24
+        bitWidth: 1
+      PH7:
+        bitOffset: 23
+        bitWidth: 1
+      PH6:
+        bitOffset: 22
+        bitWidth: 1
+      PH5:
+        bitOffset: 21
+        bitWidth: 1
+      PH4:
+        bitOffset: 20
+        bitWidth: 1
+      PH3:
+        bitOffset: 19
+        bitWidth: 1
+      PH2:
+        bitOffset: 18
+        bitWidth: 1
+      PH1:
+        bitOffset: 17
+        bitWidth: 1
+      PH0:
+        bitOffset: 16
+        bitWidth: 1
+      PL15:
+        bitOffset: 15
+        bitWidth: 1
+      PL14:
+        bitOffset: 14
+        bitWidth: 1
+      PL13:
+        bitOffset: 13
+        bitWidth: 1
+      PL12:
+        bitOffset: 12
+        bitWidth: 1
+      PL11:
+        bitOffset: 11
+        bitWidth: 1
+      PL10:
+        bitOffset: 10
+        bitWidth: 1
+      PL9:
+        bitOffset: 9
+        bitWidth: 1
+      PL8:
+        bitOffset: 8
+        bitWidth: 1
+      PL7:
+        bitOffset: 7
+        bitWidth: 1
+      PL6:
+        bitOffset: 6
+        bitWidth: 1
+      PL5:
+        bitOffset: 5
+        bitWidth: 1
+      PL4:
+        bitOffset: 4
+        bitWidth: 1
+      PL3:
+        bitOffset: 3
+        bitWidth: 1
+      PL2:
+        bitOffset: 2
+        bitWidth: 1
+      PL1:
+        bitOffset: 1
+        bitWidth: 1
+      PL0:
+        bitOffset: 0
+        bitWidth: 1
+  GPIO_SET:
+    _add:
+      PH15:
+        bitOffset: 31
+        bitWidth: 1
+      PH14:
+        bitOffset: 30
+        bitWidth: 1
+      PH13:
+        bitOffset: 29
+        bitWidth: 1
+      PH12:
+        bitOffset: 28
+        bitWidth: 1
+      PH11:
+        bitOffset: 27
+        bitWidth: 1
+      PH10:
+        bitOffset: 26
+        bitWidth: 1
+      PH9:
+        bitOffset: 25
+        bitWidth: 1
+      PH8:
+        bitOffset: 24
+        bitWidth: 1
+      PH7:
+        bitOffset: 23
+        bitWidth: 1
+      PH6:
+        bitOffset: 22
+        bitWidth: 1
+      PH5:
+        bitOffset: 21
+        bitWidth: 1
+      PH4:
+        bitOffset: 20
+        bitWidth: 1
+      PH3:
+        bitOffset: 19
+        bitWidth: 1
+      PH2:
+        bitOffset: 18
+        bitWidth: 1
+      PH1:
+        bitOffset: 17
+        bitWidth: 1
+      PH0:
+        bitOffset: 16
+        bitWidth: 1
+      PL15:
+        bitOffset: 15
+        bitWidth: 1
+      PL14:
+        bitOffset: 14
+        bitWidth: 1
+      PL13:
+        bitOffset: 13
+        bitWidth: 1
+      PL12:
+        bitOffset: 12
+        bitWidth: 1
+      PL11:
+        bitOffset: 11
+        bitWidth: 1
+      PL10:
+        bitOffset: 10
+        bitWidth: 1
+      PL9:
+        bitOffset: 9
+        bitWidth: 1
+      PL8:
+        bitOffset: 8
+        bitWidth: 1
+      PL7:
+        bitOffset: 7
+        bitWidth: 1
+      PL6:
+        bitOffset: 6
+        bitWidth: 1
+      PL5:
+        bitOffset: 5
+        bitWidth: 1
+      PL4:
+        bitOffset: 4
+        bitWidth: 1
+      PL3:
+        bitOffset: 3
+        bitWidth: 1
+      PL2:
+        bitOffset: 2
+        bitWidth: 1
+      PL1:
+        bitOffset: 1
+        bitWidth: 1
+      PL0:
+        bitOffset: 0
+        bitWidth: 1
+  GPIO_CLR:
+    _add:
+      PH15:
+        bitOffset: 31
+        bitWidth: 1
+      PH14:
+        bitOffset: 30
+        bitWidth: 1
+      PH13:
+        bitOffset: 29
+        bitWidth: 1
+      PH12:
+        bitOffset: 28
+        bitWidth: 1
+      PH11:
+        bitOffset: 27
+        bitWidth: 1
+      PH10:
+        bitOffset: 26
+        bitWidth: 1
+      PH9:
+        bitOffset: 25
+        bitWidth: 1
+      PH8:
+        bitOffset: 24
+        bitWidth: 1
+      PH7:
+        bitOffset: 23
+        bitWidth: 1
+      PH6:
+        bitOffset: 22
+        bitWidth: 1
+      PH5:
+        bitOffset: 21
+        bitWidth: 1
+      PH4:
+        bitOffset: 20
+        bitWidth: 1
+      PH3:
+        bitOffset: 19
+        bitWidth: 1
+      PH2:
+        bitOffset: 18
+        bitWidth: 1
+      PH1:
+        bitOffset: 17
+        bitWidth: 1
+      PH0:
+        bitOffset: 16
+        bitWidth: 1
+      PL15:
+        bitOffset: 15
+        bitWidth: 1
+      PL14:
+        bitOffset: 14
+        bitWidth: 1
+      PL13:
+        bitOffset: 13
+        bitWidth: 1
+      PL12:
+        bitOffset: 12
+        bitWidth: 1
+      PL11:
+        bitOffset: 11
+        bitWidth: 1
+      PL10:
+        bitOffset: 10
+        bitWidth: 1
+      PL9:
+        bitOffset: 9
+        bitWidth: 1
+      PL8:
+        bitOffset: 8
+        bitWidth: 1
+      PL7:
+        bitOffset: 7
+        bitWidth: 1
+      PL6:
+        bitOffset: 6
+        bitWidth: 1
+      PL5:
+        bitOffset: 5
+        bitWidth: 1
+      PL4:
+        bitOffset: 4
+        bitWidth: 1
+      PL3:
+        bitOffset: 3
+        bitWidth: 1
+      PL2:
+        bitOffset: 2
+        bitWidth: 1
+      PL1:
+        bitOffset: 1
+        bitWidth: 1
+      PL0:
+        bitOffset: 0
+        bitWidth: 1
+  GPIO_ODATA:
+    _add:
+      PH15:
+        bitOffset: 31
+        bitWidth: 1
+      PH14:
+        bitOffset: 30
+        bitWidth: 1
+      PH13:
+        bitOffset: 29
+        bitWidth: 1
+      PH12:
+        bitOffset: 28
+        bitWidth: 1
+      PH11:
+        bitOffset: 27
+        bitWidth: 1
+      PH10:
+        bitOffset: 26
+        bitWidth: 1
+      PH9:
+        bitOffset: 25
+        bitWidth: 1
+      PH8:
+        bitOffset: 24
+        bitWidth: 1
+      PH7:
+        bitOffset: 23
+        bitWidth: 1
+      PH6:
+        bitOffset: 22
+        bitWidth: 1
+      PH5:
+        bitOffset: 21
+        bitWidth: 1
+      PH4:
+        bitOffset: 20
+        bitWidth: 1
+      PH3:
+        bitOffset: 19
+        bitWidth: 1
+      PH2:
+        bitOffset: 18
+        bitWidth: 1
+      PH1:
+        bitOffset: 17
+        bitWidth: 1
+      PH0:
+        bitOffset: 16
+        bitWidth: 1
+      PL15:
+        bitOffset: 15
+        bitWidth: 1
+      PL14:
+        bitOffset: 14
+        bitWidth: 1
+      PL13:
+        bitOffset: 13
+        bitWidth: 1
+      PL12:
+        bitOffset: 12
+        bitWidth: 1
+      PL11:
+        bitOffset: 11
+        bitWidth: 1
+      PL10:
+        bitOffset: 10
+        bitWidth: 1
+      PL9:
+        bitOffset: 9
+        bitWidth: 1
+      PL8:
+        bitOffset: 8
+        bitWidth: 1
+      PL7:
+        bitOffset: 7
+        bitWidth: 1
+      PL6:
+        bitOffset: 6
+        bitWidth: 1
+      PL5:
+        bitOffset: 5
+        bitWidth: 1
+      PL4:
+        bitOffset: 4
+        bitWidth: 1
+      PL3:
+        bitOffset: 3
+        bitWidth: 1
+      PL2:
+        bitOffset: 2
+        bitWidth: 1
+      PL1:
+        bitOffset: 1
+        bitWidth: 1
+      PL0:
+        bitOffset: 0
+        bitWidth: 1
+  GPIO_IDATA:
+    _add:
+      PH15:
+        bitOffset: 31
+        bitWidth: 1
+      PH14:
+        bitOffset: 30
+        bitWidth: 1
+      PH13:
+        bitOffset: 29
+        bitWidth: 1
+      PH12:
+        bitOffset: 28
+        bitWidth: 1
+      PH11:
+        bitOffset: 27
+        bitWidth: 1
+      PH10:
+        bitOffset: 26
+        bitWidth: 1
+      PH9:
+        bitOffset: 25
+        bitWidth: 1
+      PH8:
+        bitOffset: 24
+        bitWidth: 1
+      PH7:
+        bitOffset: 23
+        bitWidth: 1
+      PH6:
+        bitOffset: 22
+        bitWidth: 1
+      PH5:
+        bitOffset: 21
+        bitWidth: 1
+      PH4:
+        bitOffset: 20
+        bitWidth: 1
+      PH3:
+        bitOffset: 19
+        bitWidth: 1
+      PH2:
+        bitOffset: 18
+        bitWidth: 1
+      PH1:
+        bitOffset: 17
+        bitWidth: 1
+      PH0:
+        bitOffset: 16
+        bitWidth: 1
+      PL15:
+        bitOffset: 15
+        bitWidth: 1
+      PL14:
+        bitOffset: 14
+        bitWidth: 1
+      PL13:
+        bitOffset: 13
+        bitWidth: 1
+      PL12:
+        bitOffset: 12
+        bitWidth: 1
+      PL11:
+        bitOffset: 11
+        bitWidth: 1
+      PL10:
+        bitOffset: 10
+        bitWidth: 1
+      PL9:
+        bitOffset: 9
+        bitWidth: 1
+      PL8:
+        bitOffset: 8
+        bitWidth: 1
+      PL7:
+        bitOffset: 7
+        bitWidth: 1
+      PL6:
+        bitOffset: 6
+        bitWidth: 1
+      PL5:
+        bitOffset: 5
+        bitWidth: 1
+      PL4:
+        bitOffset: 4
+        bitWidth: 1
+      PL3:
+        bitOffset: 3
+        bitWidth: 1
+      PL2:
+        bitOffset: 2
+        bitWidth: 1
+      PL1:
+        bitOffset: 1
+        bitWidth: 1
+      PL0:
+        bitOffset: 0
+        bitWidth: 1
+  GPIO_IEN:
+    _add:
+      PH15:
+        bitOffset: 31
+        bitWidth: 1
+      PH14:
+        bitOffset: 30
+        bitWidth: 1
+      PH13:
+        bitOffset: 29
+        bitWidth: 1
+      PH12:
+        bitOffset: 28
+        bitWidth: 1
+      PH11:
+        bitOffset: 27
+        bitWidth: 1
+      PH10:
+        bitOffset: 26
+        bitWidth: 1
+      PH9:
+        bitOffset: 25
+        bitWidth: 1
+      PH8:
+        bitOffset: 24
+        bitWidth: 1
+      PH7:
+        bitOffset: 23
+        bitWidth: 1
+      PH6:
+        bitOffset: 22
+        bitWidth: 1
+      PH5:
+        bitOffset: 21
+        bitWidth: 1
+      PH4:
+        bitOffset: 20
+        bitWidth: 1
+      PH3:
+        bitOffset: 19
+        bitWidth: 1
+      PH2:
+        bitOffset: 18
+        bitWidth: 1
+      PH1:
+        bitOffset: 17
+        bitWidth: 1
+      PH0:
+        bitOffset: 16
+        bitWidth: 1
+      PL15:
+        bitOffset: 15
+        bitWidth: 1
+      PL14:
+        bitOffset: 14
+        bitWidth: 1
+      PL13:
+        bitOffset: 13
+        bitWidth: 1
+      PL12:
+        bitOffset: 12
+        bitWidth: 1
+      PL11:
+        bitOffset: 11
+        bitWidth: 1
+      PL10:
+        bitOffset: 10
+        bitWidth: 1
+      PL9:
+        bitOffset: 9
+        bitWidth: 1
+      PL8:
+        bitOffset: 8
+        bitWidth: 1
+      PL7:
+        bitOffset: 7
+        bitWidth: 1
+      PL6:
+        bitOffset: 6
+        bitWidth: 1
+      PL5:
+        bitOffset: 5
+        bitWidth: 1
+      PL4:
+        bitOffset: 4
+        bitWidth: 1
+      PL3:
+        bitOffset: 3
+        bitWidth: 1
+      PL2:
+        bitOffset: 2
+        bitWidth: 1
+      PL1:
+        bitOffset: 1
+        bitWidth: 1
+      PL0:
+        bitOffset: 0
+        bitWidth: 1
+  GPIO_IS:
+    _add:
+      PH15:
+        bitOffset: 31
+        bitWidth: 1
+      PH14:
+        bitOffset: 30
+        bitWidth: 1
+      PH13:
+        bitOffset: 29
+        bitWidth: 1
+      PH12:
+        bitOffset: 28
+        bitWidth: 1
+      PH11:
+        bitOffset: 27
+        bitWidth: 1
+      PH10:
+        bitOffset: 26
+        bitWidth: 1
+      PH9:
+        bitOffset: 25
+        bitWidth: 1
+      PH8:
+        bitOffset: 24
+        bitWidth: 1
+      PH7:
+        bitOffset: 23
+        bitWidth: 1
+      PH6:
+        bitOffset: 22
+        bitWidth: 1
+      PH5:
+        bitOffset: 21
+        bitWidth: 1
+      PH4:
+        bitOffset: 20
+        bitWidth: 1
+      PH3:
+        bitOffset: 19
+        bitWidth: 1
+      PH2:
+        bitOffset: 18
+        bitWidth: 1
+      PH1:
+        bitOffset: 17
+        bitWidth: 1
+      PH0:
+        bitOffset: 16
+        bitWidth: 1
+      PL15:
+        bitOffset: 15
+        bitWidth: 1
+      PL14:
+        bitOffset: 14
+        bitWidth: 1
+      PL13:
+        bitOffset: 13
+        bitWidth: 1
+      PL12:
+        bitOffset: 12
+        bitWidth: 1
+      PL11:
+        bitOffset: 11
+        bitWidth: 1
+      PL10:
+        bitOffset: 10
+        bitWidth: 1
+      PL9:
+        bitOffset: 9
+        bitWidth: 1
+      PL8:
+        bitOffset: 8
+        bitWidth: 1
+      PL7:
+        bitOffset: 7
+        bitWidth: 1
+      PL6:
+        bitOffset: 6
+        bitWidth: 1
+      PL5:
+        bitOffset: 5
+        bitWidth: 1
+      PL4:
+        bitOffset: 4
+        bitWidth: 1
+      PL3:
+        bitOffset: 3
+        bitWidth: 1
+      PL2:
+        bitOffset: 2
+        bitWidth: 1
+      PL1:
+        bitOffset: 1
+        bitWidth: 1
+      PL0:
+        bitOffset: 0
+        bitWidth: 1
+  GPIO_IBE:
+    _add:
+      PH15:
+        bitOffset: 31
+        bitWidth: 1
+      PH14:
+        bitOffset: 30
+        bitWidth: 1
+      PH13:
+        bitOffset: 29
+        bitWidth: 1
+      PH12:
+        bitOffset: 28
+        bitWidth: 1
+      PH11:
+        bitOffset: 27
+        bitWidth: 1
+      PH10:
+        bitOffset: 26
+        bitWidth: 1
+      PH9:
+        bitOffset: 25
+        bitWidth: 1
+      PH8:
+        bitOffset: 24
+        bitWidth: 1
+      PH7:
+        bitOffset: 23
+        bitWidth: 1
+      PH6:
+        bitOffset: 22
+        bitWidth: 1
+      PH5:
+        bitOffset: 21
+        bitWidth: 1
+      PH4:
+        bitOffset: 20
+        bitWidth: 1
+      PH3:
+        bitOffset: 19
+        bitWidth: 1
+      PH2:
+        bitOffset: 18
+        bitWidth: 1
+      PH1:
+        bitOffset: 17
+        bitWidth: 1
+      PH0:
+        bitOffset: 16
+        bitWidth: 1
+      PL15:
+        bitOffset: 15
+        bitWidth: 1
+      PL14:
+        bitOffset: 14
+        bitWidth: 1
+      PL13:
+        bitOffset: 13
+        bitWidth: 1
+      PL12:
+        bitOffset: 12
+        bitWidth: 1
+      PL11:
+        bitOffset: 11
+        bitWidth: 1
+      PL10:
+        bitOffset: 10
+        bitWidth: 1
+      PL9:
+        bitOffset: 9
+        bitWidth: 1
+      PL8:
+        bitOffset: 8
+        bitWidth: 1
+      PL7:
+        bitOffset: 7
+        bitWidth: 1
+      PL6:
+        bitOffset: 6
+        bitWidth: 1
+      PL5:
+        bitOffset: 5
+        bitWidth: 1
+      PL4:
+        bitOffset: 4
+        bitWidth: 1
+      PL3:
+        bitOffset: 3
+        bitWidth: 1
+      PL2:
+        bitOffset: 2
+        bitWidth: 1
+      PL1:
+        bitOffset: 1
+        bitWidth: 1
+      PL0:
+        bitOffset: 0
+        bitWidth: 1
+  GPIO_IEV:
+    _add:
+      PH15:
+        bitOffset: 31
+        bitWidth: 1
+      PH14:
+        bitOffset: 30
+        bitWidth: 1
+      PH13:
+        bitOffset: 29
+        bitWidth: 1
+      PH12:
+        bitOffset: 28
+        bitWidth: 1
+      PH11:
+        bitOffset: 27
+        bitWidth: 1
+      PH10:
+        bitOffset: 26
+        bitWidth: 1
+      PH9:
+        bitOffset: 25
+        bitWidth: 1
+      PH8:
+        bitOffset: 24
+        bitWidth: 1
+      PH7:
+        bitOffset: 23
+        bitWidth: 1
+      PH6:
+        bitOffset: 22
+        bitWidth: 1
+      PH5:
+        bitOffset: 21
+        bitWidth: 1
+      PH4:
+        bitOffset: 20
+        bitWidth: 1
+      PH3:
+        bitOffset: 19
+        bitWidth: 1
+      PH2:
+        bitOffset: 18
+        bitWidth: 1
+      PH1:
+        bitOffset: 17
+        bitWidth: 1
+      PH0:
+        bitOffset: 16
+        bitWidth: 1
+      PL15:
+        bitOffset: 15
+        bitWidth: 1
+      PL14:
+        bitOffset: 14
+        bitWidth: 1
+      PL13:
+        bitOffset: 13
+        bitWidth: 1
+      PL12:
+        bitOffset: 12
+        bitWidth: 1
+      PL11:
+        bitOffset: 11
+        bitWidth: 1
+      PL10:
+        bitOffset: 10
+        bitWidth: 1
+      PL9:
+        bitOffset: 9
+        bitWidth: 1
+      PL8:
+        bitOffset: 8
+        bitWidth: 1
+      PL7:
+        bitOffset: 7
+        bitWidth: 1
+      PL6:
+        bitOffset: 6
+        bitWidth: 1
+      PL5:
+        bitOffset: 5
+        bitWidth: 1
+      PL4:
+        bitOffset: 4
+        bitWidth: 1
+      PL3:
+        bitOffset: 3
+        bitWidth: 1
+      PL2:
+        bitOffset: 2
+        bitWidth: 1
+      PL1:
+        bitOffset: 1
+        bitWidth: 1
+      PL0:
+        bitOffset: 0
+        bitWidth: 1
+  GPIO_IC:
+    _add:
+      PH15:
+        bitOffset: 31
+        bitWidth: 1
+      PH14:
+        bitOffset: 30
+        bitWidth: 1
+      PH13:
+        bitOffset: 29
+        bitWidth: 1
+      PH12:
+        bitOffset: 28
+        bitWidth: 1
+      PH11:
+        bitOffset: 27
+        bitWidth: 1
+      PH10:
+        bitOffset: 26
+        bitWidth: 1
+      PH9:
+        bitOffset: 25
+        bitWidth: 1
+      PH8:
+        bitOffset: 24
+        bitWidth: 1
+      PH7:
+        bitOffset: 23
+        bitWidth: 1
+      PH6:
+        bitOffset: 22
+        bitWidth: 1
+      PH5:
+        bitOffset: 21
+        bitWidth: 1
+      PH4:
+        bitOffset: 20
+        bitWidth: 1
+      PH3:
+        bitOffset: 19
+        bitWidth: 1
+      PH2:
+        bitOffset: 18
+        bitWidth: 1
+      PH1:
+        bitOffset: 17
+        bitWidth: 1
+      PH0:
+        bitOffset: 16
+        bitWidth: 1
+      PL15:
+        bitOffset: 15
+        bitWidth: 1
+      PL14:
+        bitOffset: 14
+        bitWidth: 1
+      PL13:
+        bitOffset: 13
+        bitWidth: 1
+      PL12:
+        bitOffset: 12
+        bitWidth: 1
+      PL11:
+        bitOffset: 11
+        bitWidth: 1
+      PL10:
+        bitOffset: 10
+        bitWidth: 1
+      PL9:
+        bitOffset: 9
+        bitWidth: 1
+      PL8:
+        bitOffset: 8
+        bitWidth: 1
+      PL7:
+        bitOffset: 7
+        bitWidth: 1
+      PL6:
+        bitOffset: 6
+        bitWidth: 1
+      PL5:
+        bitOffset: 5
+        bitWidth: 1
+      PL4:
+        bitOffset: 4
+        bitWidth: 1
+      PL3:
+        bitOffset: 3
+        bitWidth: 1
+      PL2:
+        bitOffset: 2
+        bitWidth: 1
+      PL1:
+        bitOffset: 1
+        bitWidth: 1
+      PL0:
+        bitOffset: 0
+        bitWidth: 1
+  GPIO_RIS:
+    _add:
+      PH15:
+        bitOffset: 31
+        bitWidth: 1
+      PH14:
+        bitOffset: 30
+        bitWidth: 1
+      PH13:
+        bitOffset: 29
+        bitWidth: 1
+      PH12:
+        bitOffset: 28
+        bitWidth: 1
+      PH11:
+        bitOffset: 27
+        bitWidth: 1
+      PH10:
+        bitOffset: 26
+        bitWidth: 1
+      PH9:
+        bitOffset: 25
+        bitWidth: 1
+      PH8:
+        bitOffset: 24
+        bitWidth: 1
+      PH7:
+        bitOffset: 23
+        bitWidth: 1
+      PH6:
+        bitOffset: 22
+        bitWidth: 1
+      PH5:
+        bitOffset: 21
+        bitWidth: 1
+      PH4:
+        bitOffset: 20
+        bitWidth: 1
+      PH3:
+        bitOffset: 19
+        bitWidth: 1
+      PH2:
+        bitOffset: 18
+        bitWidth: 1
+      PH1:
+        bitOffset: 17
+        bitWidth: 1
+      PH0:
+        bitOffset: 16
+        bitWidth: 1
+      PL15:
+        bitOffset: 15
+        bitWidth: 1
+      PL14:
+        bitOffset: 14
+        bitWidth: 1
+      PL13:
+        bitOffset: 13
+        bitWidth: 1
+      PL12:
+        bitOffset: 12
+        bitWidth: 1
+      PL11:
+        bitOffset: 11
+        bitWidth: 1
+      PL10:
+        bitOffset: 10
+        bitWidth: 1
+      PL9:
+        bitOffset: 9
+        bitWidth: 1
+      PL8:
+        bitOffset: 8
+        bitWidth: 1
+      PL7:
+        bitOffset: 7
+        bitWidth: 1
+      PL6:
+        bitOffset: 6
+        bitWidth: 1
+      PL5:
+        bitOffset: 5
+        bitWidth: 1
+      PL4:
+        bitOffset: 4
+        bitWidth: 1
+      PL3:
+        bitOffset: 3
+        bitWidth: 1
+      PL2:
+        bitOffset: 2
+        bitWidth: 1
+      PL1:
+        bitOffset: 1
+        bitWidth: 1
+      PL0:
+        bitOffset: 0
+        bitWidth: 1
+  GPIO_MIS:
+    _add:
+      PH15:
+        bitOffset: 31
+        bitWidth: 1
+      PH14:
+        bitOffset: 30
+        bitWidth: 1
+      PH13:
+        bitOffset: 29
+        bitWidth: 1
+      PH12:
+        bitOffset: 28
+        bitWidth: 1
+      PH11:
+        bitOffset: 27
+        bitWidth: 1
+      PH10:
+        bitOffset: 26
+        bitWidth: 1
+      PH9:
+        bitOffset: 25
+        bitWidth: 1
+      PH8:
+        bitOffset: 24
+        bitWidth: 1
+      PH7:
+        bitOffset: 23
+        bitWidth: 1
+      PH6:
+        bitOffset: 22
+        bitWidth: 1
+      PH5:
+        bitOffset: 21
+        bitWidth: 1
+      PH4:
+        bitOffset: 20
+        bitWidth: 1
+      PH3:
+        bitOffset: 19
+        bitWidth: 1
+      PH2:
+        bitOffset: 18
+        bitWidth: 1
+      PH1:
+        bitOffset: 17
+        bitWidth: 1
+      PH0:
+        bitOffset: 16
+        bitWidth: 1
+      PL15:
+        bitOffset: 15
+        bitWidth: 1
+      PL14:
+        bitOffset: 14
+        bitWidth: 1
+      PL13:
+        bitOffset: 13
+        bitWidth: 1
+      PL12:
+        bitOffset: 12
+        bitWidth: 1
+      PL11:
+        bitOffset: 11
+        bitWidth: 1
+      PL10:
+        bitOffset: 10
+        bitWidth: 1
+      PL9:
+        bitOffset: 9
+        bitWidth: 1
+      PL8:
+        bitOffset: 8
+        bitWidth: 1
+      PL7:
+        bitOffset: 7
+        bitWidth: 1
+      PL6:
+        bitOffset: 6
+        bitWidth: 1
+      PL5:
+        bitOffset: 5
+        bitWidth: 1
+      PL4:
+        bitOffset: 4
+        bitWidth: 1
+      PL3:
+        bitOffset: 3
+        bitWidth: 1
+      PL2:
+        bitOffset: 2
+        bitWidth: 1
+      PL1:
+        bitOffset: 1
+        bitWidth: 1
+      PL0:
+        bitOffset: 0
+        bitWidth: 1
